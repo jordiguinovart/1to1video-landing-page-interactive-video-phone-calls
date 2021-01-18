@@ -1,0 +1,14 @@
+@supports (-webkit-touch-callout: none) {
+  .video-js .vjs-control {
+    bottom: 0;
+  }
+
+  .video-js .vjs-control-bar {
+    transform: translateX(-50%) translateY(100%);
+    bottom: 0;
+  }
+
+  #idomoo_new_player {
+    height: 260px;
+  }
+}
